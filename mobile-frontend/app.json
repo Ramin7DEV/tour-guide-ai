@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "Azerbaijan Tour Guide",
+    "slug": "azerbaijan-tour-guide",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#1a4d6d",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.azerbaijantour",
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "comgooglemaps"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.example.azerbaijantour"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "@sentry/react-native/expo",
+        {
+          "organization": "my-org",
+          "project": "my-project"
+        }
+      ],
+      "expo-video"
+    ]
+  }
+}

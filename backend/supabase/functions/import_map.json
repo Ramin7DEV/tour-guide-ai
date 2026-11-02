@@ -1,0 +1,7 @@
+{
+  "imports": {
+    "std/": "https://deno.land/std@0.193.0/",
+    "supabase/functions-js/": "https://deno.land/x/supabase_functions@v1.4.2/",
+    "supabase-js": "npm:@supabase/supabase-js@2"
+  }
+}
